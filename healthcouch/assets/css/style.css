@@ -2804,6 +2804,7 @@ hr {
   outline: 0;
 }
 .video-area {
+  border-radius: 3rem;
   height: 545px;
   justify-content: center;
 }
@@ -4043,6 +4044,7 @@ hr {
   background: #fff;
   padding: 15px 15px 15px 20px;
   border-left: 2px solid;
+  font-size: 1.275rem;
 }
 @media (min-width: 768px) {
   .single-post-area .quotes {

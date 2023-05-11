@@ -105,7 +105,7 @@
     position: relative;
 
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -153,7 +153,7 @@
     position: relative;
 
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       width: 1px;
       height: 10px;
@@ -374,7 +374,7 @@
         bottom: 0px;
 
         &:before {
-          content: "75%";
+          content: '75%';
           position: absolute;
           right: -10px;
           bottom: 0px;
@@ -640,7 +640,7 @@
     }
 
     &::after {
-      content: "|";
+      content: '|';
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -651,7 +651,7 @@
   }
 
   &::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
     display: table;
@@ -711,7 +711,7 @@
     // color: $title-color;
 
     &::after {
-      content: "";
+      content: '';
       display: block;
       padding-top: 15px;
       border-bottom: 1px solid #f0e9ff;
@@ -1130,6 +1130,7 @@
     font-style: italic;
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: 1rem !important;
 
     @media (min-width: 768px) {
       padding: 30px;

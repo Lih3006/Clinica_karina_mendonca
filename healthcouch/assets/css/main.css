@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans:300,400,600,700,700i|Montserrat:200,300,400,500,600,700,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans:300,400,600,700,700i|Montserrat:200,300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .white-bg {
   background: #ffffff;
@@ -39,7 +39,7 @@
   color: #c6a16e !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -73,37 +73,37 @@
   top: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
 }
-[data-opacity="1"]::before {
+[data-opacity='1']::before {
   opacity: 0.1;
 }
-[data-opacity="2"]::before {
+[data-opacity='2']::before {
   opacity: 0.2;
 }
-[data-opacity="3"]::before {
+[data-opacity='3']::before {
   opacity: 0.3;
 }
-[data-opacity="4"]::before {
+[data-opacity='4']::before {
   opacity: 0.4;
 }
-[data-opacity="5"]::before {
+[data-opacity='5']::before {
   opacity: 0.5;
 }
-[data-opacity="6"]::before {
+[data-opacity='6']::before {
   opacity: 0.6;
 }
-[data-opacity="7"]::before {
+[data-opacity='7']::before {
   opacity: 0.7;
 }
-[data-opacity="8"]::before {
+[data-opacity='8']::before {
   opacity: 0.8;
 }
-[data-opacity="9"]::before {
+[data-opacity='9']::before {
   opacity: 0.9;
 }
 body {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-weight: normal;
   font-style: normal;
 }
@@ -113,7 +113,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #0b1c39;
   margin-top: 0px;
   font-style: normal;
@@ -121,7 +121,7 @@ h6 {
   text-transform: normal;
 }
 p {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   color: #506172;
   font-size: 16px;
   line-height: 30px;
@@ -232,7 +232,7 @@ hr {
 }
 .theme-overlay::before {
   background: #1696e7 none repeat scroll 0 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -246,7 +246,7 @@ hr {
 }
 .overlay::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -259,7 +259,7 @@ hr {
 }
 .overlay2::before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #2e2200;
   top: 0;
   left: 0;
@@ -350,7 +350,7 @@ hr {
   margin: 0;
 }
 .btn::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -382,7 +382,7 @@ hr {
 .border-btn {
   border: 2px solid #c6a16e;
   color: #c6a16e;
-  font: "Josefin Sans", sans-serif;
+  font: 'Josefin Sans', sans-serif;
   background: none;
   -moz-user-select: none;
   padding: 28px 50px;
@@ -403,7 +403,7 @@ hr {
 }
 .border-btn::before {
   border: 2px solid transparent;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -438,7 +438,7 @@ hr {
 }
 .send-btn::before {
   border: 2px solid transparent;
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -2117,7 +2117,7 @@ hr {
   margin-right: 33px;
   padding-right: 33px;
   border-right: 1px solid #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 .header-area .header-top .header-info-left ul li:last-child {
@@ -2283,7 +2283,7 @@ hr {
 }
 .slider-area .hero__caption::after {
   position: absolute;
-  content: "";
+  content: '';
   background-image: url(../img/hero/hero_arrow.png);
   left: 0;
   right: 0;
@@ -2312,7 +2312,7 @@ hr {
   font-weight: 900;
   margin-bottom: 14px;
   color: #ffffff;
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Exo 2', sans-serif;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -2359,7 +2359,7 @@ hr {
 }
 .hero-overly::before {
   position: absolute;
-  content: "";
+  content: '';
   background-color: rgba(1, 10, 28, 0.3);
   width: 100%;
   height: 100%;
@@ -2452,7 +2452,7 @@ hr {
 }
 .services-area .single-services .services-caption h4::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 9px;
   background: #ffe7ca;
@@ -2547,7 +2547,7 @@ hr {
 }
 .safe-industery-area .safe-caption-right .safe-alert-box .safe-alert::after {
   position: absolute;
-  content: "";
+  content: '';
   background-image: url(../img/safe_industery/arrow_bottom.png);
   left: 0;
   right: 0;
@@ -2591,10 +2591,10 @@ hr {
   width: 100%;
   height: 100%;
   bottom: 0;
-  content: "";
+  content: '';
 }
 .gallery-area .gallery-box .single-gallery::after {
-  content: "";
+  content: '';
   background: #f27420;
   position: absolute;
   top: 0;
@@ -2722,7 +2722,7 @@ hr {
 }
 .single-team::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 40%;
   bottom: 0;
@@ -2747,7 +2747,7 @@ hr {
   color: #fff;
   font-size: 25px;
   font-weight: 500;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
 }
 .single-team .team-caption p {
@@ -2837,7 +2837,7 @@ hr {
   position: relative;
 }
 .david-droga-area .single-david .david-captoin a.d-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   background: #282828;
   width: 100%;
@@ -2897,7 +2897,7 @@ hr {
 }
 .wantToWork-area::after {
   position: absolute;
-  content: "";
+  content: '';
   background-image: url(../img/icon/footer_arrow.png);
   left: 0;
   right: 0;
@@ -3095,7 +3095,7 @@ hr {
 .blog-area .single-blog .blog-caption .blog-cap-top ul li {
   color: #c7c7c7;
   font-size: 14px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .blog-area .single-blog .blog-caption .blog-cap-top ul li a {
   color: #c6a16e;
@@ -3104,7 +3104,7 @@ hr {
 .blog-area .single-blog .blog-caption .blog-cap-mid p a {
   color: #444444;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 28px;
   margin-bottom: 30px;
 }
@@ -3252,7 +3252,7 @@ hr {
 }
 .hero-caption span::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 75px;
   height: 3px;
   background: #c6a16e;
@@ -3269,7 +3269,7 @@ hr {
   margin-bottom: 70px;
 }
 .blog_area a {
-  color: "Josefin Sans", sans-serif !important;
+  color: 'Josefin Sans', sans-serif !important;
   text-decoration: none;
   transition: 0.4s;
 }
@@ -3293,7 +3293,7 @@ hr {
   position: relative;
 }
 .single-blog .thumb:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -3333,7 +3333,7 @@ hr {
   position: relative;
 }
 .single-blog .tag:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 1px;
   height: 10px;
@@ -3496,7 +3496,7 @@ hr {
   bottom: 0px;
 }
 .causes_item .causes_img .c_parcent span:before {
-  content: "75%";
+  content: '75%';
   position: absolute;
   right: -10px;
   bottom: 0px;
@@ -3678,7 +3678,7 @@ hr {
   margin-right: 5px;
 }
 .blog-info-link li::after {
-  content: "|";
+  content: '|';
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -3686,7 +3686,7 @@ hr {
   display: none;
 }
 .blog-info-link::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
   display: table;
@@ -3738,7 +3738,7 @@ hr {
   margin-bottom: 40px;
 }
 .blog_right_sidebar .widget_title::after {
-  content: "";
+  content: '';
   display: block;
   padding-top: 15px;
   border-bottom: 1px solid #f0e9ff;
@@ -4414,7 +4414,7 @@ hr {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -4465,7 +4465,7 @@ hr {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
   font-weight: normal;
   width: 100% !important;
   line-height: 50px;
@@ -4490,7 +4490,7 @@ hr {
   color: #919191;
 }
 .popup_box .nice-select::after {
-  content: "\f0d7";
+  content: '\f0d7';
   display: block;
   height: 5px;
   margin-top: -5px;
@@ -5002,7 +5002,7 @@ del {
   line-height: 1.82em !important;
 }
 .unordered-list li:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 14px;
   height: 14px;
@@ -5193,7 +5193,7 @@ del {
   height: 100%;
 }
 .primary-switch input + label:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -5210,7 +5210,7 @@ del {
   transition: all 0.2s;
 }
 .primary-switch input + label:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 1px;
   left: 1px;
@@ -5259,7 +5259,7 @@ del {
   height: 100%;
 }
 .confirm-switch input + label:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -5276,7 +5276,7 @@ del {
   cursor: pointer;
 }
 .confirm-switch input + label:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 1px;
   left: 1px;
