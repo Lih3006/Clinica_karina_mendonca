@@ -333,7 +333,7 @@ hr {
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
-  border: 2px solid #fff;
+  /*   border: 2px solid #3a5c48; */
   border-radius: 0 0 0 17px;
   -moz-user-select: none;
   letter-spacing: 1px;
