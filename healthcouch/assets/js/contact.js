@@ -1,18 +1,18 @@
 $(document).ready(function () {
   (function ($) {
-    "use strict";
+    'use strict';
 
     jQuery.validator.addMethod(
-      "answercheck",
+      'answercheck',
       function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value);
       },
-      "type the correct answer -_-"
+      'type the correct answer -_-'
     );
 
     // validate contactForm form
     $(function () {
-      $("#contactForm").validate({
+      $('#contactForm').validate({
         rules: {
           name: {
             required: true,
@@ -24,7 +24,7 @@ $(document).ready(function () {
           },
           number: {
             required: true,
-            minlength: 5,
+            minlength: 8,
           },
           email: {
             required: true,
@@ -37,46 +37,45 @@ $(document).ready(function () {
         },
         messages: {
           name: {
-            required: "come on, you have a name, don't you?",
-            minlength: "your name must consist of at least 2 characters",
+            required: 'Digite seu nome',
+            minlength: 'seu nome deve conter pelo menos 2 caracteres',
           },
           subject: {
-            required: "come on, you have a subject, don't you?",
-            minlength: "your subject must consist of at least 4 characters",
+            required: 'Falta preencher o assunto',
+            minlength: 'Este texto deve conter pelo menos 2 caracteres',
           },
           number: {
-            required: "come on, you have a number, don't you?",
-            minlength: "your Number must consist of at least 5 characters",
+            required: 'Falta inserir um número de telefone',
+            minlength: 'O telefone deve conter pelo menos 8 caracteres',
           },
           email: {
-            required: "no email, no message",
+            required: 'Favor inserir um  e-mail válido',
           },
           message: {
-            required:
-              "um...yea, you have to write something to send this form.",
-            minlength: "thats all? really?",
+            required: 'Você precisa escrever algo para enviar esse formulário',
+            minlength: 'Descreva um pouco mais',
           },
         },
         submitHandler: function (form) {
           $(form).ajaxSubmit({
-            type: "POST",
+            type: 'POST',
             data: $(form).serialize(),
-            url: "contact_process.php",
+            url: 'contact_process.php',
             success: function () {
-              $("#contactForm :input").attr("disabled", "disabled");
-              $("#contactForm").fadeTo("slow", 1, function () {
-                $(this).find(":input").attr("disabled", "disabled");
-                $(this).find("label").css("cursor", "default");
-                $("#success").fadeIn();
-                $(".modal").modal("hide");
-                $("#success").modal("show");
+              $('#contactForm :input').attr('disabled', 'disabled');
+              $('#contactForm').fadeTo('slow', 1, function () {
+                $(this).find(':input').attr('disabled', 'disabled');
+                $(this).find('label').css('cursor', 'default');
+                $('#success').fadeIn();
+                $('.modal').modal('hide');
+                $('#success').modal('show');
               });
             },
             error: function () {
-              $("#contactForm").fadeTo("slow", 1, function () {
-                $("#error").fadeIn();
-                $(".modal").modal("hide");
-                $("#error").modal("show");
+              $('#contactForm').fadeTo('slow', 1, function () {
+                $('#error').fadeIn();
+                $('.modal').modal('hide');
+                $('#error').modal('show');
               });
             },
           });
