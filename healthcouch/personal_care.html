@@ -9,7 +9,7 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="assets/img/favicon.ico"
+      href="assets/img/favicon.png"
     />
 
     <!-- CSS here -->
@@ -32,7 +32,7 @@
         <div class="preloader-inner position-relative">
           <div class="preloader-circle"></div>
           <div class="preloader-img pere-text">
-            <img src="assets/img/logo/loder.png" alt="" />
+            <img src="assets/img/logo/logob.png" alt="" />
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
                       <ul id="navigation">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">sobre</a></li>
-                        <li><a href="services.html">tratamentos</a></li>
+                        <li><a href="therapies.html">tratamentos</a></li>
                         <li>
                           <a href="together.html">cuidados</a>
                           <ul class="submenu">
@@ -135,8 +135,8 @@
         </div>
       </div>
       <!-- Slider Area End -->
-      <!--? Blog Area Start -->
-      <section class="blog_area single-post-area section-padding">
+      <!--? therapies Area Start -->
+      <section class="therapies_area single-post-area section-padding">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 posts-list">
@@ -144,15 +144,15 @@
                 <div class="feature-img">
                   <img
                     class="img-fluid"
-                    src="assets/img/blog/single_blog_8.png"
+                    src="assets/img/therapies/single_therapies_8.png"
                     alt=""
                   />
                 </div>
-                <div class="blog_details">
+                <div class="therapies_details">
                   <h2 style="color: #2d2d2d">
                     Nutrientes para Potencializar Beleza e Libido
                   </h2>
-                  <ul class="blog-info-link mt-3 mb-4"></ul>
+                  <ul class="therapies-info-link mt-3 mb-4"></ul>
                   <p class="excert">
                     O protocolo de injetáveis é uma abordagem medicinal que tem
                     sido cada vez mais utilizada para auxiliar na melhoria da
@@ -206,30 +206,36 @@
               <div class="comment-form">
                 <h4>Está com dúvidas?</h4>
                 <form
-                  class="form-contact comment_form"
-                  action="#"
-                  id="commentForm"
+                  class="form-contact contact_form"
+                  action="contact_process.php"
+                  method="post"
+                  id="contactForm"
+                  novalidate="novalidate"
                 >
                   <div class="row">
                     <div class="col-12">
                       <div class="form-group">
                         <textarea
                           class="form-control w-100"
-                          name="comment"
-                          id="comment"
+                          name="message"
+                          id="message"
                           cols="30"
                           rows="9"
-                          placeholder="Deixe sua pergunta ou comentário"
+                          onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = 'Digite sua mensagem'"
+                          placeholder=" Digite sua mensagem"
                         ></textarea>
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <input
-                          class="form-control"
+                          class="form-control valid"
                           name="name"
                           id="name"
                           type="text"
+                          onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = 'Nome'"
                           placeholder="Nome"
                         />
                       </div>
@@ -237,10 +243,12 @@
                     <div class="col-sm-6">
                       <div class="form-group">
                         <input
-                          class="form-control"
+                          class="form-control valid"
                           name="email"
                           id="email"
                           type="email"
+                          onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = 'Digite seu email'"
                           placeholder="Email"
                         />
                       </div>
@@ -249,18 +257,20 @@
                       <div class="form-group">
                         <input
                           class="form-control"
-                          name="website"
-                          id="website"
+                          name="subject"
+                          id="subject"
                           type="text"
-                          placeholder="Telefone"
+                          onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = 'Assunto'"
+                          placeholder="Digite um Assunto"
                         />
                       </div>
                     </div>
                   </div>
-                  <div class="form-group">
+                  <div class="form-group mt-3">
                     <button
                       type="submit"
-                      class="button button-contactForm btn_1 boxed-btn"
+                      class="button button-contactForm boxed-btn"
                     >
                       Enviar
                     </button>
@@ -269,7 +279,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="blog_right_sidebar">
+              <div class="therapies_right_sidebar">
                 <aside class="single_sidebar_widget post_category_widget">
                   <h4 class="widget_title" style="color: #2d2d2d">
                     Tratamentos
@@ -673,7 +683,7 @@
           </div>
         </div>
       </section>
-      <!-- Blog Area End -->
+      <!-- therapies Area End -->
       <!--? About Law Start-->
       <section class="about-low-area mt-30">
         <div class="container">
@@ -732,8 +742,10 @@
                             <ul>
                               <li><a href="index.html">Home</a></li>
                               <li><a href="about.html">sobre</a></li>
-                              <li><a href="services.html">tratamentos</a></li>
-                              <li><a href="together.htmll">cuidados</a></li>
+                              <li>
+                                <a href="therapies.html">tratamentos</a>
+                              </li>
+                              <li><a href="together.html">cuidados</a></li>
                               <li><a href="contact.html">contato</a></li>
                             </ul>
                           </nav>

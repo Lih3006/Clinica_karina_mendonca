@@ -28,30 +28,28 @@
 */
 
 // Default
-	@import 'variables';
-	@import 'mixins';
-	@import 'overlay';
-	@import 'common';
-	@import 'color';
+@import 'variables';
+@import 'mixins';
+@import 'overlay';
+@import 'common';
+@import 'color';
 
 // Homepage1
-	@import 'headerMenu';
-	@import 'h1-hero';
-	@import 'about';
-	@import 'testimonial';
-	@import 'video-area';
-	@import 'services_section';
-	@import 'wantTowork';
-	@import 'team';
-	@import 'footer';
+@import 'headerMenu';
+@import 'h1-hero';
+@import 'about';
+@import 'testimonial';
+@import 'video-area';
+@import 'services_section';
+@import 'wantTowork';
+@import 'team';
+@import 'footer';
 
-	
 // inner Page
 
-
 // Default Element Page
-	@import 'blog_page';
-	@import 'contact';
-	@import 'bradcam';
-	@import 'extend';
-	@import 'elements';
+@import 'therapies_page';
+@import 'contact';
+@import 'bradcam';
+@import 'extend';
+@import 'elements';

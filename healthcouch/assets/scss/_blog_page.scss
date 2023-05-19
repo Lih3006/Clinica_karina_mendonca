@@ -1,9 +1,9 @@
-// Home Page Blog
-.home-blog-area {
-  .home-blog-single {
+// Home Page therapies
+.home-therapies-area {
+  .home-therapies-single {
     @include transition(0.4s);
-    .blog-img-cap {
-      .blog-img {
+    .therapies-img-cap {
+      .therapies-img {
         overflow: hidden;
         position: relative;
         margin-bottom: 20px;
@@ -14,7 +14,7 @@
           transition: all 0.5s ease-out 0s;
         }
       }
-      .blog-cap {
+      .therapies-cap {
         span {
           color: #0d210b;
           font-size: 16px;
@@ -58,21 +58,21 @@
   }
 }
 
-.home-blog-single:hover {
-  .blog-img img {
+.home-therapies-single:hover {
+  .therapies-img img {
     @include transform(scale(1.05));
   }
 }
 
-/* Start Blog Area css
+/* Start therapies Area css
 ============================================================================================ */
 
-.latest-blog-area {
+.latest-therapies-area {
   .area-heading {
     margin-bottom: 70px;
   }
 }
-.blog_area {
+.therapies_area {
   a {
     color: $font_1 !important;
     text-decoration: none;
@@ -92,7 +92,7 @@
   }
 }
 
-.single-blog {
+.single-therapies {
   overflow: hidden;
   margin-bottom: 30px;
 
@@ -179,7 +179,7 @@
     margin-bottom: 30px;
   }
 
-  .single-blog-content {
+  .single-therapies-content {
     padding: 30px;
 
     .meta-bottom {
@@ -223,10 +223,10 @@
   }
 }
 
-.full_image.single-blog {
+.full_image.single-therapies {
   position: relative;
 
-  .single-blog-content {
+  .single-therapies-content {
     position: absolute;
     left: 35px;
     bottom: 0;
@@ -266,7 +266,7 @@
   }
 
   &:hover {
-    .single-blog-content {
+    .single-therapies-content {
       opacity: 1;
       visibility: visible;
       @include transition(0.3s);
@@ -274,22 +274,22 @@
   }
 }
 
-/* End Blog Area css
+/* End therapies Area css
 ============================================================================================ */
 
-/* Latest Blog Area css
+/* Latest therapies Area css
 ============================================================================================ */
-.latest_blog_area {
+.latest_therapies_area {
 }
 
-.latest_blog_inner {
+.latest_therapies_inner {
 }
 
-.l_blog_item {
-  .l_blog_img {
+.l_therapies_item {
+  .l_therapies_img {
   }
 
-  .l_blog_text {
+  .l_therapies_text {
     .date {
       margin-top: 24px;
       margin-bottom: 15px;
@@ -320,7 +320,7 @@
   }
 }
 
-/* End Latest Blog Area css
+/* End Latest therapies Area css
 ============================================================================================ */
 
 /* Causes Area css
@@ -437,12 +437,12 @@
 /* End Causes Area css
 ============================================================================================ */
 
-/*================= latest_blog_area css =============*/
-.latest_blog_area {
+/*================= latest_therapies_area css =============*/
+.latest_therapies_area {
   background: #f9f9ff;
 }
 
-.single-recent-blog-post {
+.single-recent-therapies-post {
   margin-bottom: 30px;
 
   .thumb {
@@ -501,8 +501,8 @@
   }
 }
 
-/*========= blog_categorie_area css ===========*/
-.blog_categorie_area {
+/*========= therapies_categorie_area css ===========*/
+.therapies_categorie_area {
   padding-top: 30px;
   padding-bottom: 30px;
   // background: $lightGray;
@@ -580,19 +580,19 @@
   }
 }
 
-/*============ blog_left_sidebar css ==============*/
-.blog_area {
+/*============ therapies_left_sidebar css ==============*/
+.therapies_area {
   // background: $lightGray;
 }
 
-.blog_left_sidebar {
+.therapies_left_sidebar {
 }
 
-.blog_item {
+.therapies_item {
   margin-bottom: 50px;
 }
 
-.blog_details {
+.therapies_details {
   padding: 30px 0 20px 10px;
   box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 
@@ -624,7 +624,7 @@
   }
 }
 
-.blog-info-link {
+.therapies-info-link {
   li {
     float: left;
     font-size: 14px;
@@ -658,10 +658,10 @@
   }
 }
 
-.blog_item_img {
+.therapies_item_img {
   position: relative;
 
-  .blog_item_date {
+  .therapies_item_date {
     position: absolute;
     bottom: -10px;
     left: 10px;
@@ -701,7 +701,7 @@
   }
 }
 
-.blog_right_sidebar {
+.therapies_right_sidebar {
   // border: 1px solid #eeeeee;
   // background: #fafaff;
   // padding: 30px;
@@ -1016,17 +1016,17 @@
 //     font-weight: 400;
 // }
 
-// .blog-pagination .page-item.active .page-link {
+// .therapies-pagination .page-item.active .page-link {
 //     background-// color: $title-color;
 //     border-color: transparent;
 //     color:#fff;
 // }
 
-.blog-pagination {
+.therapies-pagination {
   margin-top: 80px;
 }
 
-.blog-pagination .page-link {
+.therapies-pagination .page-link {
   font-size: 14px;
   position: relative;
   display: block;
@@ -1053,7 +1053,7 @@
   }
 }
 
-.blog-pagination .page-item.active {
+.therapies-pagination .page-item.active {
   .page-link {
     background-color: #fbf9ff;
     border-color: #f0e9ff;
@@ -1061,30 +1061,30 @@
   }
 }
 
-.blog-pagination .page-item:last-child .page-link {
+.therapies-pagination .page-item:last-child .page-link {
   margin-right: 0;
 }
 
-// .blog-pagination .page-link .lnr {
+// .therapies-pagination .page-link .lnr {
 //     font-weight: 600;
 // }
 
-// .blog-pagination .page-item:last-child .page-link,
-// .blog-pagination .page-item:first-child .page-link {
+// .therapies-pagination .page-item:last-child .page-link,
+// .therapies-pagination .page-item:first-child .page-link {
 //     border-radius: 0;
 // }
 
-// .blog-pagination .page-link:hover {
+// .therapies-pagination .page-link:hover {
 //     color: #fff;
 //     text-decoration: none;
 //     background-// color: $title-color;
 //     border-color: #eee;
 // }
 
-/*============ Start Blog Single Styles  =============*/
+/*============ Start therapies Single Styles  =============*/
 
 .single-post-area {
-  .blog_details {
+  .therapies_details {
     box-shadow: none;
     padding: 0;
   }
@@ -1109,7 +1109,7 @@
     }
   }
 
-  .blog_details {
+  .therapies_details {
     padding-top: 26px;
 
     p {
@@ -1215,7 +1215,7 @@
     }
   }
 
-  .blog-author {
+  .therapies-author {
     padding: 40px 30px;
     background: #fbf9ff;
     margin-top: 50px;
@@ -1530,4 +1530,4 @@
   }
 }
 
-/*============ End Blog Single Styles  =============*/
+/*============ End therapies Single Styles  =============*/
